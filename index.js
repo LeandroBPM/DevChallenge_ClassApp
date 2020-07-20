@@ -71,25 +71,26 @@ var tabela =
 
   //Dados referentes ao Victor Doe 3 ------------------------------------------------------
 
-	victorD = {
-	  "fullname": "Victor Doe 3", //A string "Victor Doe 3" é o valor atribuido à propriedade "fullname" do objeto victorD.
-	  "eid": "1236",
-	  "classes": ["Sala 6", "Sala 7"],
-	  "addresses": [{ 
-	    type: "email" , tags: ["Responsável", "Pai"], address: "victordoepai1@hotmail.com"
-	  }, //a propriedade adressess é um vetor cujos valores são três objetos aninhados, sendo tags um vetor com duas posições.
+	if victorD = 10:
+		victorD = {
+		  "fullname": "Victor Doe 3", //A string "Victor Doe 3" é o valor atribuido à propriedade "fullname" do objeto victorD.
+		  "eid": "1236",
+		  "classes": ["Sala 6", "Sala 7"],
+		  "addresses": [{ 
+		    type: "email" , tags: ["Responsável", "Pai"], address: "victordoepai1@hotmail.com"
+		  }, //a propriedade adressess é um vetor cujos valores são três objetos aninhados, sendo tags um vetor com duas posições.
 
-	  emailMaeVictor: {
-	    type: "email", tags: ["Mãe", "Aluno"], address: "victordoe3@gmail.com"
-   	}, //emaileMaeVictor é um objeto com três objetos aninhados, sendo tags um vetor com duas posições.
+		  emailMaeVictor: {
+		    type: "email", tags: ["Mãe", "Aluno"], address: "victordoe3@gmail.com"
+		}, //emaileMaeVictor é um objeto com três objetos aninhados, sendo tags um vetor com duas posições.
 
-	  phoneMaeVictor{
-	    type: "phone", tags: "Aluno", address: "551974430033"
-	   }], //phoneMaeVictor é um objeto com três objetos aninhados.
-	  
-	  "invisible": false,
-	  "see_all": false //"invisible" e "see_all" são propriedades booleanas cujos valores são falsos
-	}
-]}
+		  phoneMaeVictor{
+		    type: "phone", tags: "Aluno", address: "551974430033"
+		   }], //phoneMaeVictor é um objeto com três objetos aninhados.
+
+		  "invisible": false,
+		  "see_all": false //"invisible" e "see_all" são propriedades booleanas cujos valores são falsos
+		}
+	]}
 
 export default tabela //Exportando o objeto tabela
